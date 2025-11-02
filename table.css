@@ -7,8 +7,117 @@ h1{
     font-family: fantasy;
     text-decoration: line-through;
 }
+.container{
+    background-color: lightcoral;
+    width: auto;
+    height: auto;
+    border: 3px solid;
+    border-radius: 5px 4px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px green;
+}
 table{
     margin: auto;
     align-items: center;
     justify-content: center;
+}
+caption{
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: underline;
+    color: rgb(218, 11, 11);
+}
+tb, td{
+    font-family: cursive;
+    font-size: 17px;
+}
+th{
+    font-family: fantasy;
+    font-size: 25px;
+    font-style: italic;
+    box-shadow: blue;
+    background-color: cadetblue;
+    border-radius: 4px;
+    border: collapse;
+    transition: 0.2s ease-in-out;
+}
+th:hover{
+    background-color: mediumslateblue;
+}
+tr{
+    border: 4px solid green;
+}
+.one{
+    border-radius: 10px;
+    background-color: rgb(96, 96, 153);
+    transition: 0.3s ease-in-out;
+}
+.one:hover{
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+.two{
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    transition: 0.3s ease-in-out;
+}
+.two:hover{
+    color: chocolate;
+    background-color: burlywood;
+}
+.three{
+    border-radius: 10px;
+    background-color: rgb(189, 123, 43);
+    transition: 0.3s ease-in-out;
+}
+.three:hover{
+    color: antiquewhite;
+    background-color: coral;
+}
+.four{
+     border-radius: 10px;
+    background-color: rgb(96, 96, 153);
+    transition: 0.3s ease-in-out;
+}
+.four:hover{
+    color: chocolate;
+    background-color: blanchedalmond;
+}
+.five{
+     border-radius: 10px;
+    background-color: cornflowerblue;
+    transition: 0.3s ease-in-out;
+}
+.five:hover{
+     color: chocolate;
+    background-color: burlywood;
+}
+.six{
+    border-radius: 10px;
+    background-color: rgb(189, 123, 43);
+    transition: 0.3s ease-in-out;
+}
+.six:hover{
+     color: antiquewhite;
+    background-color: coral;
+}
+.seven{
+    background-color: indianred;
+    transition: 0.3s ease-in-out;
+}
+.seven:hover{
+    color: gold;
+    background-color: lightsalmon;
+}
+th,td{
+    border-collapse: collapse;
+    width: 30%;
+}
+tbody{
+    transition: 0.2s ease-in-out;
+    cursor: progress;
+}
+th,td{
+    padding: 10px;
 }
